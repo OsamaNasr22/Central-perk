@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 15, 2017, 10:13:12 PM
+    Author     : OSAMA
+*/
+
+/*.search-navbar{
+background-color: #000000;
+        padding: 15px 40px; 
+
+}
+.search-navbar ul li{
+display: inline-block
+}
+.search-navbar,.bottom{
+overflow: hidden;
+}
+
+.left .search{
+   
+  
+background-color: #312622;
+    padding: 7px 10px;
+    border-radius: 15px
+ 
+}
+.search input{
+display: inline-block;
+    width: 80%;
+    border-radius: 15px;
+    height: 25px
+}
+.search-navbar .search i{
+    display: inline-block;
+    color: white;
+    margin-right: 11px;
+    font-size: 18px
+}
+.search-navbar .right ul{
+float: right
+}
+.search-navbar .right ul li{
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: #F7F6F6;
+    margin-left: 7px;
+font-size: 20px;
+background-color: #312622;
+}
+
+.navbar{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(153, 153, 153, 0.43);
+    padding: 10px 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 0;
+    z-index: 1
+}
+.slider:after{
+content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 200px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    top: -35px;
+    left: 36%;
+    z-index: 1
+}
+
+
+.navbar .right:after{
+content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-color: black black transparent transparent;
+    top: -16px;
+    right: -55px;
+}
+.navbar .left:before{
+content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-color: black transparent transparent  black ;
+    top: -16px;
+    left: -55px;
+}
+.navbar .left{
+    position: relative;
+float: left;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: #F7F6F6;
+    margin-left: 5px;
+font-size: 20px;
+background-color: #312622;
+}
+.slider .brand{
+position: absolute;
+    top: -18px;
+    left: 42%;
+    z-index: 5;
+    color: #FFF;
+    
+}
+.brand h1{
+font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 30px
+}
+.brand img{
+display: block;
+  width: 67px;
+    height: 67px;
+    margin: 0 auto;
+
+}
+.navbar .active{
+background-color: #A22401
+}
+.navbar .right ul{
+    float: right
+}*/

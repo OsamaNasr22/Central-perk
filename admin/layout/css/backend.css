@@ -1,0 +1,385 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2017, 1:53:20 AM
+    Author     : OSAMA
+*/
+
+body{
+    background-color: #f4f4f4;
+    font-size: 16px
+}
+.empty-rec{
+    padding: 10px;
+    background-color: #ccc;
+    color: #333;
+    border-left: 5px solid green;
+    border-radius: 3px 8px 8px 3px;;
+}
+.edit{
+
+    background-color: rgba(0, 128, 0, 0.73);
+        color: #FFF;
+    padding: 5px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+opacity: 0.8;
+transition: opacity 0.7s ease;
+}
+.activate{
+    padding: 5px 7px;
+    background-color: #337ab7;
+    color: #FFF;
+    border-radius: 4px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.edit:hover  ,.delete:hover,.activate:hover{
+    color:#FFF;
+    opacity: 1
+}
+.delete{
+    transition: opacity 0.5s ease;
+        padding: 4.7px 7px;
+    background-color: rgba(220, 31, 31, 0.81);
+    color: #FFF;
+    border-radius: 4px;
+    font-weight: bold;
+    opacity: 0.8
+}
+.login{
+    width: 300px;
+    margin: 100px auto;
+   
+}
+.login h2{
+    margin-bottom: 25px;
+    font-weight: bold
+}
+.login .form-control{
+    margin-bottom: 10px;
+    background-color: #e5e5e5
+}
+/*edit the bootstrab style*/
+.navbar-inverse{
+    background-color: #34495e;
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0
+}
+.nav>li>a{
+      padding: 15px 8px;
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand{
+    color:#FFF;
+}
+.navbar-inverse .navbar-brand{
+    font-size: 1em;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover,.dropdown-menu{
+    background-color: #2980b9
+}
+.dropdown-menu{
+      min-width: 200px;;
+      margin: 0;
+      border: 0;
+      border-radius: 0;
+      font-size: 1em;
+      color:#FFF;
+      padding: 0
+}
+.dropdown-menu>li>a{
+    color: #FFF;
+    padding: 10px 20px
+}
+.mem{
+    margin-top: 50px
+}
+.ast{
+      position: absolute;
+  right: 30px;
+  top: -2px;
+  font-size: 40px;
+  color: rgb(203, 18, 18);
+  font-weight: bold
+}
+.maintable th,.maintable td{
+    text-align: center
+}
+.maintable:first-child th{
+    background-color: #333;
+    color: #FFF;
+}
+.shadowhead{
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: tahoma;
+}
+.password{
+      position: absolute;
+  top: 1px;
+  right: 25px;
+}
+table{
+    box-shadow: 5px 5px 20px gray;
+
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    vertical-align: middle;
+    padding: 5px;
+    
+}
+.maintable .btn{
+        padding: 5px 6px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  
+}
+table td .tab-wide{
+    display: inline-block;
+    max-width: 250px;
+    word-wrap: break-word;
+    max-height: 32px;
+    overflow: auto
+        
+}
+.container .homestat{
+    margin-top: 51px;
+    color: #FFF
+}
+.homestat .stat{
+    background-color: #CCC;
+   
+    padding: 20px 10px ;
+    border-radius: 10px ;
+       box-shadow: 3px 5px 16px #ccc;
+
+    position: relative;
+    overflow: hidden;
+}
+.lastest{
+    margin-bottom: 20px
+}
+.lastest .panel-heading i{
+    margin-right: 10px
+}
+.stat .info{
+    float: right;
+    width: 60%
+}
+.stat .icon-info{
+    float: left;
+    width: 40%
+}
+.stat .icon-info i{
+    font-size: 80px
+}
+.homestat .stat span{
+    font-size: 30px;  
+    transition: 0.5s all ease
+}
+.homestat .stat span:hover{
+    color: #d4d2d2
+}
+.homestat .stat p{
+    font-weight: bold;
+    font-size: 16px
+    
+}
+.lastest .panel{
+    margin-bottom: 0
+}
+.lastest .col-lg-6{
+    padding: 0
+}
+.homestat .stat1{
+    background-color: #E91E63
+}
+.homestat .stat2{
+    background-color: #f39c12
+}
+.homestat .stat3{
+    background-color: #4CAF50
+}
+.homestat .stat4{
+    background-color: #8e44ad
+}
+.lastest{
+    margin-top: 50px
+}
+.lastest .panel-default>.panel-heading{
+    color: #FFF;
+    background-color: #333;
+    font-size: 20px
+}
+
+.homestat .stat a{
+    color: #fcf8e3
+}
+.homestat .stat a:hover{
+    text-decoration: none;
+}
+.lastest li a{
+    margin-right: 2px
+}
+
+.lastest  ul li .btn{
+      
+}
+.lastest  ul li span{
+    font-size: 18px;
+    font-family: serif;
+    font-weight: bold;
+    color: #737373
+}
+.catmanage{
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 3px 3px 10px gray;
+}
+.catmanage .panel-heading{
+    background-color: #333;
+    color: #FFF;
+       font-size: 20px
+        
+}
+.lastest .delete,.lastest .edit,.lastest .activate{
+    padding: 4px 7px
+}
+
+.catmanage .panel-heading i{
+    margin-right: 5px;
+    font-size: 30px
+}
+.catmanage .panel-heading h4{
+ 
+}
+.op{
+    transition: all 0.5s ease-in-out;
+      position: absolute;
+  top: 20px;
+  right: -135px;
+
+
+}
+ .op .btn{
+    padding: 2px 6px
+}
+.cat:hover .op{
+    right: 40px
+}
+.catmanage .panel-body{
+    padding: 0
+}
+.cat h3{
+    margin-top: 0;
+}
+.catmanage hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid gray;
+    border-radius: 20px;
+    opacity: 0.5
+}
+.cat {
+    padding: 10px 20px;
+    position: relative
+}
+.cat span.btn{
+    padding: 0 5px;
+    margin-top: 10px;
+    margin-right: 5px
+}
+.maintable .btn{
+    margin-top: 10px
+}
+.maintable .btn i{
+    margin-right: 5px
+}
+.catmanage .cat:last-of-type ~hr{
+    display: none
+}
+.catmanage .panel{
+    margin-bottom: 0
+}
+.catmanage .panel-heading span{
+    color: rgb(221, 221, 221);
+    font-weight: bold
+}
+.catmanage .panel-heading a{
+    color: rgb(221, 221, 221);
+    
+}
+.catmanage .panel-heading a:hover{
+    text-decoration: none
+}
+.catmanage .panel-heading a.active{
+    color: red
+}
+ .date_creat{
+      position: absolute;
+  top: 99px;
+  right: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.comment-div{
+    position: relative;
+    overflow: hidden;
+
+}
+.comment-div .com-user{
+    float: left;
+    width: 20%;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-weight: bold
+}
+.comment-div .com-text{
+    float: right;
+    width: 80%;
+  position: relative
+   
+}
+.comment-div .com-text p{
+     background-color: #f5f5f5;
+    color: #333;
+    padding: 15px;
+    font-size: 15px;
+     max-height: 150px;;
+     margin-bottom: 0;
+     width: 100%;
+     word-wrap: break-word
+}
+.comment-div .com-text:before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent #f5f5f5 transparent transparent;
+    left: -40.6px;
+    top: 6px
+}
+.com-text .com-date{
+    font-size: 11px;
+    font-weight: bold
+}
+.com-text a{
+    font-size: 13px
+}
+.comment-div ~hr{
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.comment-div:last-of-type ~ hr{
+    display: none
+}
+
